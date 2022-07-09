@@ -1,0 +1,15 @@
+.slick-slide{
+  width: 300px;
+}
+
+.slick-center{
+  position:relative;
+}
+
+.slick-center .slick-current{
+ transform: translateX(90px);
+ transition: 1s ease-in-out;
+ position:absolute;
+ left:1000px;
+ border:1px solid white;
+}
